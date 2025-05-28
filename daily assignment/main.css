@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+
+nav {
+    margin: 20px 0px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 10px;
+    height: 3vh;
+    width: 70%;
+    border: 1px solid;
+    border-radius: 30px;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+}
+
+.nav-list ul li {
+    padding: 0px 25px;
+}
+
+
+.nav-button button {
+    width: 130px;
+    height: 6vh;
+    border: 0;
+    border-radius: 10vh;
+}
+
+
+
+/* body */
+
+.main-container {
+
+    align-items: center;
+    display: grid;
+    justify-content: center;
+}
+
+.first-content {
+    margin: 40px 0px;
+}
+
+.first-content h1 {
+    font-size: 300%;
+}
+
+.first-content p {
+    text-align: center;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+    height: 5vh;
+    width: 190px;
+    padding: 0px 10px;
+}
+
+.header button {
+    background-color: gray;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+    align-items: center;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+
+.card {
+    height: 55vh;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 20px 10px;
+    background-color: rgb(7, 0, 20);
+}
+
+.card ul {
+    margin-top: 30px;
+}
+
+.card ul li {
+    padding: 10px 0px;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-button button {
+    width: 250px;
+    height: 5vh;
+    font-weight: 900;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 15px;
+}
+
+
+
+/* frequently aksed section */
+
+
+.down-body {
+    margin-top: 90px;
+    display: grid;
+    justify-content: center;
+}
+
+
+.down-header h1{
+    line-height: 60px;
+    font-size: 45px;
+}
+
+.down-header p{
+    text-align: center;
+} 
+
+
+
+
+.first-card {
+
+    width: 100%;
+    height: 15vh;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 30px 0px;
+    padding: 15px 15px;
+    background-color: rgb(7, 0, 20);
+}
+
+.all-card{
+    height:6vh;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 15px;
+    margin: 15px 0px;
+    padding: 20px 10px;
+    background-color: rgb(7, 0, 20);
+}
+
+.last-card{
+    height: 20vh;
+    width: 55%;
+    border: 1px solid;
+    border-radius: 10px;
+    margin: auto;
+    padding: 30px 20px;
+    background-color: rgb(7, 0, 20);
+
+}
+
+.last-card p{
+    padding: 7px 0px;
+}
+
+.last-card button{
+    width: 125px;
+    height: 6vh;
+    border: none;
+    border-radius: 20px;
+    margin: 15px 0px;
+    font-weight: 900;
+}
+
+
+
+/* footer */
+
+.footer{
+    background-color: white;
+    margin-top: 15vh;
+    width: 100%;
+    height: 35vh;
+    color: black;
+    text-align: center;
+}
+
+
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 150px;
+    margin-top: 40px;
+
+}
+
+.upper-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper-head ul{
+    display: flex;
+}
+
+.upper-head ul li{
+    padding: 0px 10px;
+}
+
+.left-upper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-upper p{
+    padding: 0px 10px;
+    font-weight: 700;
+}
+
+.middle-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content:space-between ;
+    padding: 10px 150px;
+    text-align: center;
+    text-align: center;
+}
+
+.lower-header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.lower-header h3{
+    text-align: center;
+    align-items: center;
+
+}
+
+
+.lower-header ul{
+    display: flex;
+    align-items: center;
+}
+
+.lower-header ul li{
+    padding: 0px 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.lower-left{
+    text-align: center;
+}
